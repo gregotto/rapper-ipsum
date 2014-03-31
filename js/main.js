@@ -4,9 +4,15 @@ $(document).ready(function () {
 });
 
 
-$('.navbutton').on('click', function (e) {
+$('.navbutton').on('mousedown', function (e) {
     e.preventDefault();
-    $(this).toggleClass('clicked');
+    $(this).addClass('clicked');
+    if ($(this).hasClass('clicked')) {
+        $('.navbutton').on('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd', function(){
+                           $(this).removeClass('clicked');
+                           })
+    }
+
 });
 
 $('#jiggabutton').on('click', function (e) {
