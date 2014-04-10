@@ -15,7 +15,6 @@
  border-radius: 20px;
  overflow: auto;
 }
-@media only screen and (max-width: 1250px){
 
   .rappertext {
     width: 75%;
