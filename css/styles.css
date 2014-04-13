@@ -172,23 +172,6 @@ color: #FFFFFF;
 }
 
 
-footer:before, footer:after {
-  content: '';
-  border: 26px solid transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 100;
-}
-
-footer:before {
-  border-left-color: #BEBEBE;
-}
-
-footer:after {
-  right: 0;
-  border-right-color: #BEBEBE;
-}
 
  footer a {
    text-decoration: none;
