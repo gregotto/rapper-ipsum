@@ -164,6 +164,7 @@ footer {
 position: relative;
 background: black;
 text-align: center;
+bottom: 0;
 padding: 5px;
 margin: 0 30px;
 font-family: 'League Gothic';
